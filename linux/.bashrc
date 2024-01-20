@@ -28,13 +28,13 @@ export EDITOR=vim
 
 # 言語の設定をまるっと記載
 export LANG=ja_JP.utf8
-export LC_CTYPE="ja_JP.utf8"
-export LC_NUMERIC="ja_JP.utf8"
-export LC_TIME="ja_JP.utf8"
-export LC_COLLATE="ja_JP.utf8"
-export LC_MONETARY="ja_JP.utf8"
-export LC_MESSAGES="ja_JP.utf8"
-export LC_ALL=ja_JP.utf8
+#export LC_CTYPE="ja_JP.utf8"
+#export LC_NUMERIC="ja_JP.utf8"
+#export LC_TIME="ja_JP.utf8"
+#export LC_COLLATE="ja_JP.utf8"
+#export LC_MONETARY="ja_JP.utf8"
+#export LC_MESSAGES="ja_JP.utf8"
+#export LC_ALL=ja_JP.utf8
 
 P
 # promptにgitのブランチ名を表示
@@ -42,5 +42,5 @@ P
 #export MSYS=winsymlinks:nativestrict
 #export PS1='\[\033];$TITLEPREFIX:$PWD \007\]\n\[`__git_ps1`\] $PWD\n$ '
 # for linux
-export PS1='\[\033];$TITLEPREFIX:$PWD \007\]\n\[`__git_ps1`\] \u@$PWD $ '
+export PS1='\[\033];$TITLEPREFIX:$PWD \007\]\[`__git_ps1`\] \u@$PWD $ '
 
