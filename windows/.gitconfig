@@ -1,0 +1,16 @@
+[user]
+	name = SAITO Masaru
+	email = mailaddr@domain
+[credential]
+	helper = manager
+[core]
+	autocrlf = input
+	quotepath = false
+[color]
+  ui = false
+  branch = false
+  diff = false
+  interactive = false
+  status = false
+  log = false
+
